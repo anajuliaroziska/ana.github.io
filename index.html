@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RainhaBook</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+   
+      <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__item">Poder</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__item">Manipulação</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__item">Psicanálise</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__item">Conhecimento</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__item">Auto ajuda</a>
+        </li>
+      </ul>
+    
+    </div>
+    
+  
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe por onde começar no RainhaBook?</h2>
+    <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento e conhecimento!</p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Mais acessados!</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="/61Z2bMhGicL._AC_UF1000,1000_QL80_.jpg" alt="Livro sobre Apache Kafka e Spring Boot da CassBook">
+        </div>
+        <div class="swiper-slide">
+          <img src="61ATa0Pc4AL._AC_UF1000,1000_QL80_.jpg" alt="Livro sobre Liderança em Design da CassBook">
+        </div>
+        <div class="swiper-slide">
+          <img src="61ef4t4Q1UL._SY425_.jpg" alt="Livro sobre JavaScript Assertivo da CassBook">
+        </div>
+        <div class="swiper-slide">
+          <img src="51M9IbBqxCL._AC_UF1000,1000_QL80_.jpg" alt="Livro Guia Front-End">
+        </div>
+        <div class="swiper-slide">
+          <img src="81EE1CAUoEL._AC_UF1000,1000_QL80_.jpg" alt="Livro sobre Portugol">
+        </div>
+        <div class="swiper-slide">
+          <img src="img2/41-xfOLzXBL._SY445_SX342_ (1).jpg" alt="Livro sobre Acessibilidade">
+        </div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Titulos semelhantes</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="91hnhxCy8LL._AC_UF1000,1000_QL80_.jpg" alt="Livro sobre Apache Kafka e Spring Boot da CassBook">
+        </div>
+        <div class="swiper-slide">
+          <img src="91AxsSkhigL._SL1500_.jpg" alt="Livro sobre Liderança em Design da CassBook">
+        </div>
+        <div class="swiper-slide">
+          <img src="51eN34F4sJL.jpg" alt="Livro sobre JavaScript Assertivo da CassBook">
+        </div>
+        <div class="swiper-slide">
+          <img src="91r5G8RxqfL.jpg" alt="Livro Guia Front-End">
+        </div>
+        <div class="swiper-slide">
+          <img src="1003w-CiUMmbPmSWg.webp" alt="Livro sobre Portugol">
+        </div>
+        <div class="swiper-slide">
+          <img src="1003w-5cdERsfaKTY.webp" alt="Livro sobre Acessibilidade">
+        </div>
+      </div>
+
+  <div class="card">
+    <div class="card__descrição">
+      <div class="descrição">
+        <h2 class="descrição__titulo-livro">Machado de Assis</h2>
+        <p class="descrição__texto">Machado de Assis tornou-se o contista mais excepcional da língua portuguesa e um dos poucos romancistas brasileiros de interesse universal. Suas mais representativas obras foram traduzidas para diversas línguas, incluindo Quincas Borba, Dom Casmurro, Esaú e Jacó e Memorial de Aires.</p>
+      </div>
+      <img src="download.jpeg" alt="Imagem de Machado de Assis" class="descrição__imagem" />
+    </div>
+    <div class="card__botões">
+      <ul class="botões">
+        <li class="botões__item">
+        </li>
+        <li class="botões__item">
+          <img src="compras.svg" alt="Adicionar no carrinho de compras" />
+        </li>
+      </ul>
+      <a href="#" class="botões__ancora">Saiba mais</a>
+    </div>
+  </div>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">Tópicos Visitados Recentemente</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Poder</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Manipulação</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Psicanálise</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Conhecimento</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Sabedoria</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Império</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Auto ajuda</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Mente Rica e Pobre</a></li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">RainhaBook</h2>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+
+</html>
+    
